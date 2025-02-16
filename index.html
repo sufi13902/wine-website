@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - E-Commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="sufi.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ShopLogo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img src="jjj.jpg" alt="ShopLogo" height="40">
+            </a>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="cart-btn">Cart (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Us Section -->
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">About Us</h2>
+        <p class="text-center">
+            Welcome to [Your Wine Brand Name], where we bring the world’s finest wines right to your table. 
+            We are passionate about curating an exceptional selection of wines, sourced from renowned vineyards 
+            and crafted by skilled winemakers. Each bottle tells a story, from the grape's journey in the vineyard 
+            to the final pour in your glass.
+        </p>
+        <p class="text-center">
+            At [Your Wine Brand Name], we believe that wine is more than just a drink—it's an experience. 
+            Whether you're an experienced connoisseur or a newcomer to the world of wine, our carefully selected 
+            range offers something for every palate. From crisp whites and robust reds to sparkling and dessert wines, 
+            we take pride in offering you only the highest quality products.
+        </p>
+        <p class="text-center">
+            We are dedicated to providing not just wine, but a lifestyle—a way to connect, celebrate, and enjoy life's 
+            special moments. Explore our collection, and let us help you find the perfect wine for every occasion. 
+            Cheers to the moments that matter!
+        </p>
+    </div>
+
+    <!-- Shop Section -->
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Our Products</h2>
+        <div class="row" id="shop-products">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images.jpg" class="card-img-top" alt="Cabernet Sauvignon">
+                    <div class="card-body">
+                        <h5 class="card-title">Cabernet Sauvignon</h5>
+                        <p class="card-text">Short description of Cabernet Sauvignon.</p>
+                        <p class="card-text"><strong>$19.99</strong></p>
+                        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="imagesp_1.jpg" class="card-img-top" alt="Merlot, Shiraz">
+                    <div class="card-body">
+                        <h5 class="card-title">Merlot, Shiraz</h5>
+                        <p class="card-text">Short description of Merlot and Shiraz.</p>
+                        <p class="card-text"><strong>$24.99</strong></p>
+                        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="th (1).jpg" class="card-img-top" alt="Pinot Noir">
+                    <div class="card-body">
+                        <h5 class="card-title">Pinot Noir</h5>
+                        <p class="card-text">Short description of Pinot Noir.</p>
+                        <p class="card-text"><strong>$29.99</strong></p>
+                        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="th (2).jpg" class="card-img-top" alt="Malbec">
+                    <div class="card-body">
+                        <h5 class="card-title">Malbec</h5>
+                        <p class="card-text">Short description of Malbec.</p>
+                        <p class="card-text"><strong>$34.99</strong></p>
+                        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="th (3).jpg" class="card-img-top" alt="Zinfandel">
+                    <div class="card-body">
+                        <h5 class="card-title">Zinfandel</h5>
+                        <p class="card-text">Short description of Zinfandel.</p>
+                        <p class="card-text"><strong>$39.99</strong></p>
+                        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="th.jpg" class="card-img-top" alt="Grenache">
+                    <div class="card-body">
+                        <h5 class="card-title">Grenache</h5>
+                        <p class="card-text">Short description of Grenache.</p>
+                        <p class="card-text"><strong>$44.99</strong></p>
+                        <button class="btn btn-primary add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Section -->
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Shopping Cart</h2>
+        <table class="table table-bordered" id="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="cart-body">
+                <!-- Cart items will appear here -->
+            </tbody>
+        </table>
+        <h4 class="text-end">Total: $<span id="cart-total">0.00</span></h4>
+        
+        <!-- Checkout Button -->
+        <div class="text-end mt-3">
+            <button class="btn btn-success" id="checkout-btn">Proceed to Payment</button>
+        </div>
+    </div>
+
+    <!-- Payment Modal -->
+    <div class="modal fade" id="paymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="paymentModalLabel">Payment Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="payment-form">
+                        <div class="mb-3">
+                            <label for="card-name" class="form-label">Cardholder Name</label>
+                            <input type="text" class="form-control" id="card-name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="card-number" class="form-label">Card Number</label>
+                            <input type="text" class="form-control" id="card-number" placeholder="1234 5678 9012 3456" required>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="card-expiry" class="form-label">Expiry Date</label>
+                                <input type="text" class="form-control" id="card-expiry" placeholder="MM/YY" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="card-cvv" class="form-label">CVV</label>
+                                <input type="text" class="form-control" id="card-cvv" placeholder="123" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Pay Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment Success Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-center">
+                <div class="modal-header">
+                    <h5 class="modal-title">Payment Successful!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for your purchase! Your order has been placed.</p>
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center p-3 bg-light mt-4">
+        <p>&copy; 2025 ShopLogo. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="sufi.js"></script>
+</body>
+</html>
